@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Color picker</title>
+	
+ <!--[if IE]>
+ <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ <![endif]--> 
+
+ 
+ <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+
+</head>
+<body id="body">
+	<h1>Trouvez votre couleur</h1>
+	<form class="color" >
+		<label for="Red">Red</label><br>
+		<input type="range" id="Red"  max="255" min="0"><br>
+		<input type="range" id="Red2"  max="255" min="0"><br>
+
+		<label for="Green">Green</label><br>
+		<input type="range" id="Green"  max="255" min="0"><br>	
+		<input type="range" id="Green2"  max="255" min="0"><br>
+
+		<label for="Blue">Blue</label><br>
+		<input type="range" id="Blue"  max="255" min="0"><br>
+		<input type="range" id="Blue2" max="255" min="0"><br>
+		<label for="angle">Angle</label><br>
+		<input type="range" id="angle" max="360" min="0">
+	</form>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</script>
+</body>
+</html>
